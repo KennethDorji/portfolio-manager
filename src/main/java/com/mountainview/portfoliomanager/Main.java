@@ -29,22 +29,22 @@ public class Main {
 //         System.out.println(portfolio);
          HashMap<User, String> hm = new HashMap<>();
 
-         User user1 = UserRegistry.createAndRegisterUser("Bryon","bryon@gmail.com");
-         hm.computeIfAbsent(user1, k -> "initial data");
-         System.out.println();
-         System.out.println(hm);
-         System.out.println();
-
-         hm.computeIfAbsent(user1, k-> "second hm");
-         System.out.println();
-         System.out.println(hm);
-         System.out.println();
-
-         User user2 = UserRegistry.createAndRegisterUser("Ken", "happy@gmail.com");
-         hm.computeIfAbsent(user2, k-> "2nd new data");
-         System.out.println();
-         System.out.println(hm);
-         System.out.println();
+//         User user1 = UserRegistry.createAndRegisterUser("Bryon","bryon@gmail.com");
+//         hm.computeIfAbsent(user1, k -> "initial data");
+//         System.out.println();
+//         System.out.println(hm);
+//         System.out.println();
+//
+//         hm.computeIfAbsent(user1, k-> "second hm");
+//         System.out.println();
+//         System.out.println(hm);
+//         System.out.println();
+//
+//         User user2 = UserRegistry.createAndRegisterUser("Ken", "happy@gmail.com");
+//         hm.computeIfAbsent(user2, k-> "2nd new data");
+//         System.out.println();
+//         System.out.println(hm);
+//         System.out.println();
 
 
      }
