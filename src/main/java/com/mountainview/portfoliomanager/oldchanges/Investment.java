@@ -1,8 +1,7 @@
-package com.mountainview.portfoliomanager.model;
+package com.mountainview.portfoliomanager.oldchanges;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.slf4j.spi.LocationAwareLogger;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

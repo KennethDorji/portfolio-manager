@@ -1,4 +1,4 @@
-package com.mountainview.portfoliomanager.model;
+package com.mountainview.portfoliomanager.oldchanges;
 
 public enum TransactionType {
     PURCHASED("Buy"),

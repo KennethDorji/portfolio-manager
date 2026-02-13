@@ -1,7 +1,6 @@
-package com.mountainview.portfoliomanager.repository;
+package com.mountainview.portfoliomanager.oldchanges.repository;
 
-import com.mountainview.portfoliomanager.model.Investment;
-import com.mountainview.portfoliomanager.model.User;
+import com.mountainview.portfoliomanager.oldchanges.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

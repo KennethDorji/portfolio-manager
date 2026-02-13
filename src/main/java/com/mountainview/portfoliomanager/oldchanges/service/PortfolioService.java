@@ -1,7 +1,7 @@
-package com.mountainview.portfoliomanager.service;
+package com.mountainview.portfoliomanager.oldchanges.service;
 
-import com.mountainview.portfoliomanager.model.Portfolio;
-import com.mountainview.portfoliomanager.model.User;
+import com.mountainview.portfoliomanager.oldchanges.Portfolio;
+import com.mountainview.portfoliomanager.oldchanges.User;
 
 import java.util.Collections;
 import java.util.List;
