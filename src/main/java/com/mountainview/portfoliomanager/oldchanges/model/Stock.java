@@ -1,4 +1,4 @@
-package com.mountainview.portfoliomanager.oldchanges;
+package com.mountainview.portfoliomanager.oldchanges.model;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

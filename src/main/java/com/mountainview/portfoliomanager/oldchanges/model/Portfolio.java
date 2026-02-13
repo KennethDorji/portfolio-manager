@@ -1,4 +1,4 @@
-package com.mountainview.portfoliomanager.oldchanges;
+package com.mountainview.portfoliomanager.oldchanges.model;
 
 import com.mountainview.portfoliomanager.oldchanges.repository.UserRegistry;
 

@@ -1,4 +1,4 @@
-package com.mountainview.portfoliomanager.oldchanges;
+package com.mountainview.portfoliomanager.oldchanges.model;
 
 import java.util.*;
 import java.util.concurrent.atomic.AtomicLong;
