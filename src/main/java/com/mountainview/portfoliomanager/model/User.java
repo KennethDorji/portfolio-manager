@@ -1,5 +1,6 @@
 package com.mountainview.portfoliomanager.model;
 
+import com.mountainview.portfoliomanager.service.PortfolioManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
