@@ -1,0 +1,77 @@
+1. Folder Structure Example:
+
+📦 What each package usually means:
+
+model (or domain)
+
+Contains data classes / entities that represent your business objects.
+
+In your Portfolio Manager project → these would be classes like:
+
+Product
+
+Electronics, Clothing, Grocery
+
+Position, Portfolio, Trade
+
+Category (enum)
+
+👉 Think of it as: “the nouns of your system.”
+
+service
+
+Contains the business logic (the operations you perform on your models).
+
+In your project → classes like:
+
+CatalogManager (manages products)
+
+PortfolioManager (calculates P&L, manages trades/positions)
+
+TradeService (executes buy/sell operations)
+
+👉 Think of it as: “the verbs / actions of your system.”
+
+util (utilities / helpers)
+
+Contains helper classes and reusable functions that don’t belong directly to model or service.
+
+Examples:
+
+DateUtil (formatting dates for reports)
+
+MathUtil (financial formulas, rounding P&L)
+
+LoggerUtil (common logging helpers)
+
+👉 Think of it as: “the toolbox for shared functionality.”
+
+src/main/java/com/yourname/portfoliomanager/
+    model/
+        Product.java
+        Electronics.java
+        Category.java
+        Position.java
+        Portfolio.java
+
+    service/
+        CatalogManager.java
+        PortfolioManager.java
+        TradeService.java
+
+    util/
+        DateUtil.java
+        MathUtil.java
+
+✅ Why do this?
+
+Keeps your code organized and modular.
+
+Easier for other developers (or future you) to navigate.
+
+Follows industry best practices.
+
+👉 In short:
+They’re asking you to separate your data (model), your logic (service), and your helpers (util) instead of dumping everything in one package.]
+
+2.
