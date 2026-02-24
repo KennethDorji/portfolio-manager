@@ -4,7 +4,7 @@ import com.mountainview.portfoliomanager.service.PortfolioManager;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.util.HashMap;
+import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -29,14 +29,15 @@ public class User {
     public long getUserNum() { return this.userNum; }
 
     public Portfolio createPortfolio(String portfolioName) {
-        Portfolio portfolio = portfolioManager.createPortfolio(this, portfolioName);
-        addPortfolio(portfolio);
-
-        return portfolio;
+        return portfolioManager.createPortfolio(this, portfolioName);
     }
 
-    public void addPortfolio(Portfolio portfolio) {
-        portfolioHashMap.computeIfAbsent(portfolio.getPortfolioId(), k -> portfolio);
+    public Map<UUID, Portfolio> getPortfolio() {
+        return portfolioManager.getPortfolio(this);
+    }
+
+    public void deletePortfolio(Portfolio portfolio) {
+        portfolioManager.deletePortfolio(this, portfolio);
     }
 
     @Override
@@ -45,3 +46,4 @@ public class User {
     }
 
 }
+
