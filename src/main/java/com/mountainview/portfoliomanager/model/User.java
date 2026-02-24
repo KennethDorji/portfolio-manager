@@ -16,7 +16,6 @@ public class User {
 
     private final UUID userId;
     private final long userNum;
-    private final HashMap<UUID, Portfolio> portfolioHashMap = new HashMap<>();
 
     public User(PortfolioManager portfolioManager) {
         LOGGER.info("Inside 'User' constructor.");
